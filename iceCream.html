@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="template" id="template">
+        <h1>Ice Cream Maker</h1>
+        <div id="cherry"></div>
+        <div class="scoop3" id="scoop3"></div>
+        <div class="scoop1" id="scoop1"></div>
+        <div class="scoop2" id="scoop2"></div>
+        <div class="panel"></div>
+        <div class="bowl"></div>
+        <div class="handle"></div>
+        <div class="end-glass"></div>
+        <hr>
+        <div>
+            <select aria-label="scoops" id="scoop-one-btn">
+                <option>Scoop 1</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="Caramel">Caramel</option>
+                <option value="Pistache">Pistache</option>
+                <option value="MintChip">Mint Chip</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="orange">Orange Sorbet</option>
+                <option value="bubblegum">BubbleGum</option>
+            </select>
+            <select aria-label="scoops" id="scoop-two-btn">
+                <option>Scoop 2</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="Caramel">Caramel</option>
+                <option value="Pistache">Pistache</option>
+                <option value="MintChip">Mint Chip</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="orange">Orange Sorbet</option>
+                <option value="bubblegum">BubbleGum</option>
+            </select>
+            <select aria-label="scoops" id="scoop-three-btn">
+                <option>Scoop 3</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="Caramel">Caramel</option>
+                <option value="Pistache">Pistache</option>
+                <option value="MintChip">Mint Chip</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="orange">Orange Sorbet</option>
+                <option value="bubblegum">BubbleGum</option>
+            </select>
+        </div>
+        <button id="toppings">Toppings</button>
+        <button id="serve">Serve</button>
+    </div>
+    <div class="bill" id="bill">
+        <h2>Here is your Scoop!<br>Enjoy</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

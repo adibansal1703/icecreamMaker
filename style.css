@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dcacfe;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto; 
+    min-height: 100vh;
+}
+
+
+h1 {
+    font-family: "Cookie", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    color: #dcacfe;
+    text-decoration: #d9f0fe underline;
+}
+
+.template {
+    height: 700px;
+    width: 450px;
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: 0px 0px 40px #c06afd;
+    border-radius: 20px;
+    transition: 2.5s;
+}
+
+.scoop1,
+.scoop2,
+.scoop3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.scoop3 {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+
+.scoop1 {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.scoop2 {
+    position: absolute;
+    top: 25%;
+    left: 49%;
+}
+
+.panel {
+    height: 2rem;
+    width: 300px;
+    border-radius: 3rem;
+    position: absolute;
+    top: 39%;
+    left: 39.7%;
+    background-color: #afddfa;
+}
+
+.bowl {
+    height: 100px;
+    width: 230px;
+    border-radius: 0 0 40% 40%;
+    position: absolute;
+    top: 43.3%;
+    left: 42%;
+    background-color: #d9f0fe;
+}
+
+.handle {
+    height: 50px;
+    width: 20px;
+    position: absolute;
+    top: 57%;
+    left: 49%;
+    background-color: #afddfa;
+}
+
+.end-glass {
+    height: 60px;
+    width: 100px;
+    border-radius: 40% 40% 0% 0%;
+    position: absolute;
+    top: 63.5%;
+    left: 46.5%;
+    background-color: #d9f0fe;
+}
+
+hr {
+    position: relative;
+    border: 1px dashed plum;
+    top: 65%;
+    width: 80%;
+    margin: auto;
+}
+
+.cherry {
+    height: 50px;
+    width: 50px;
+    background-color: maroon;
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    left: 48.2%;
+    z-index: 2;
+}
+
+#scoop-one-btn {
+    position: absolute;
+    top: 78%;
+    left: 39%;
+    background-color: azure;
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0px 0px 5px lightskyblue;
+    cursor: pointer;
+}
+
+#scoop-two-btn {
+    position: absolute;
+    top: 78%;
+    left: 52%;
+    background-color: azure;
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0px 0px 5px lightskyblue;
+    cursor: pointer;
+}
+
+#scoop-three-btn {
+    position: absolute;
+    top: 85%;
+    left: 39%;
+    background-color: azure;
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0px 0px 5px lightskyblue;
+    cursor: pointer;
+}
+
+#toppings {
+    height: 30px;
+    width: 135px;
+    position: absolute;
+    top: 85%;
+    left: 52%;
+    background-color: azure;
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0px 0px 5px lightskyblue;
+    cursor: pointer;
+}
+
+#serve {
+    height: 30px;
+    width: 135px;
+    position: absolute;
+    top: 92%;
+    left: 46%;
+    background-color: azure;
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0px 0px 5px lightskyblue;
+    cursor: pointer;
+}
+
+.bill {
+    height: 300px;
+    width: 550px;
+    background-color: white;
+    position: absolute;
+    right: 32%;
+    top: 27%;
+    z-index: 2;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Cookie", cursive;
+    font-size: 2em;
+    color: #95d3fa;
+    opacity: 0;
+    transition: 2.5s;
+    box-shadow: 0px 0px 5px lightcyan;
+}
+@media (max-width: 480px){
+   .template {
+    height: 500px;
+    width: 325px;
+    margin-top: 100px;
+}
+.scoop1,
+.scoop2,
+.scoop3 {
+    height: 110px;
+    width: 110px;
+}
+.panel {
+    width: 200px;
+    top: 39%;
+    left: 25%;
+}
+.bowl {
+    height: 90px;
+    width: 210px;
+    top: 42.5%;
+    left: 23.9%;
+}
+.handle {
+    top: 53.2%;
+}
+.end-glass {
+    height: 60px;
+    width: 100px;
+    top: 58%;
+    left: 38.5%;
+}
+hr {
+   display: none;
+}
+.scoop3 {
+    top: 22%;
+    left: 37%;
+}
+
+.scoop1 {
+    top: 30%;
+    left: 30%;
+}
+
+.scoop2 {
+    top: 30%;
+    left: 43%;
+}
+.cherry {
+    top: 18%;
+    left: 45%;
+}
+#scoop-one-btn {
+    top: 73%;
+    left: 6%;
+    padding: 2px;
+    font-size: 0.8rem;
+}
+
+#scoop-two-btn {
+    top: 73%;
+    left: 36%;
+    padding: 2px;
+    font-size: 0.8rem;
+}
+
+#scoop-three-btn {
+    top: 73%;
+    left: 66%;
+    padding: 2px;
+    font-size: 0.8rem;
+}
+#toppings {
+    top: 66.5%;
+    left: 14%;
+    padding: 2px;
+    font-size: 1rem;
+}
+#serve {
+    top: 66.5%;
+    left: 53%;
+    padding: 2px;
+    font-size: 1rem;
+}
+
+.bill {
+    height: 300px;
+    width: 250px;
+    right: 17%;
+    top: 27%;
+}
+}
